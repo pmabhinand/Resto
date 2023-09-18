@@ -1,0 +1,415 @@
+*{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+nav{
+    background-color:black;
+    height: 4.5rem;
+    position:fixed;
+    width: 100%;
+    margin-top: -10px;
+    
+}
+nav h1{
+    text-align: center;
+    margin-top: -4px;
+    color:red;
+    font-family: 'Tilt Prism', cursive;
+}
+nav i{
+    margin-right: 10rem;
+    margin-top: -20px;
+    margin-left: 10px;
+}
+nav a{
+    border: 2px solid whitesmoke;
+    margin-right: 9.5rem;
+    border-radius: 15px;
+    padding: 2px;
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    background-color: black;
+    transition: background-color 0.35s,font-size 0.35s, border 0.35s;
+}
+nav a:hover{
+    background-color: red;
+    font-size: 17px;
+    border: none;
+}
+
+#home-img{
+    width: 100%;
+    height:45rem;
+    background-image:url('./gallery/Untitled\ 1.jpg');
+    background-repeat:no-repeat;
+    background-size: cover; 
+    background-position: center;  
+}
+
+
+.home-heading{
+    width:70%;
+    padding-top:14rem;
+    padding-left: 6rem;   
+}
+.home-heading h1{
+    color:darkred;
+    font-size:85px;
+    font-weight:bold;
+    -webkit-text-stroke: 0.5px white;
+
+}
+.home-heading h4{
+    font-size: 25px;
+    margin-top: -3rem;
+    color: orangered;
+    -webkit-text-stroke: 0.25px white;
+    margin-left: 16rem;
+    font-family: 'Dancing Script', cursive;
+
+}
+
+video{
+    height: 25rem;
+    width:100%;
+}
+
+#menu{
+    margin-top: -1rem;
+    height: 42rem;
+    background-color: black;
+    display: flex;
+}
+
+.menu-intro{
+    width: 40%;
+    height: 30rem;
+    text-align: justify;
+    margin-left: 5rem;
+}
+.menu-intro h1{
+    font-size: 35px;
+    padding-top: 4rem;
+    color:whitesmoke;
+}
+.menu-intro p{
+    color:whitesmoke;
+    font-size: 20px;
+    padding-top: 2rem;
+    font-family: 'Barriecito', cursive;
+}
+.menu-intro button{
+    width:6rem;
+    height: 2.5rem;
+    float: right;
+    margin-top: 5rem;
+    font-size: 17px;
+}
+
+.food img{
+    width: 19rem;
+    height: 14rem;
+}
+.food{
+    background-color:white;
+    width:19rem;
+    height: 17rem;
+    margin-left: 3rem;
+    margin-top: 2rem;
+    border-radius: 10px;
+    transition:margin-left 1s,margin-top 1s;
+}
+.food h3{
+    color:blueviolet;
+    font-size: 30px;
+    margin-left: 7rem;
+    margin-top: 4px;
+    transition: margin-top 0.5s;
+}
+.food a:hover h3{
+      margin-top: -3px;
+}
+.food a:hover{
+    text-decoration: none;
+}
+.food:hover {
+    margin-top: 1rem;
+    margin-left: 2rem;
+
+}
+
+
+.drinks{
+    background-color:white;
+    width:19rem;
+    height: 17rem;
+    margin-top: -17rem;
+    margin-left: 24rem;
+    border-radius: 10px;
+    transition:margin-left 1s,margin-top 1s;
+}
+.drinks img{
+    width: 19rem;
+    height: 14rem;
+}
+.drinks h3{
+    margin-top: -5px;
+    font-size: 30px;
+    margin-left:7rem;
+    margin-top: 4px;
+    transition: margin-top 0.5s;
+}
+.drinks a:hover h3{
+    margin-top: -3px;
+}
+.drinks a:hover{
+    text-decoration: none;
+}
+.drinks:hover {
+    margin-top: -18rem;
+    margin-left: 23rem;
+
+}
+
+.all-day{
+    background-color: white;
+    width:19rem;
+    height: 17rem;
+    margin-top: 2rem;
+    margin-left: 3rem;
+    border-radius: 10px;
+    transition:margin-left 1s,margin-top 1s;
+}
+.all-day img{
+    width: 19rem;
+    height: 14rem;
+}
+.all-day h3{
+    font-size: 30px;
+    margin-left:6rem;
+    margin-top: 4px;
+    transition: margin-top 0.5s;
+}
+.all-day a:hover h3{
+    margin-top: -3px;
+}
+.all-day a:hover{
+    text-decoration: none;
+}
+.all-day:hover {
+    margin-top: 1rem;
+    margin-left: 2rem;
+
+}
+
+.brunch{
+    background-color: white;
+    width:19rem;
+    height: 17rem;
+    margin-left: 24rem;
+    margin-top: -17rem;
+    border-radius: 10px;
+    transition:margin-left 1s,margin-top 1s;
+}
+.brunch img{
+    width: 19rem;
+    height: 14rem;
+}
+.brunch h3{
+    font-size: 30px;
+    margin-left:6rem;
+    margin-top: 4px;
+    transition: margin-top 0.5s;
+}
+.brunch a:hover h3{
+    margin-top: -3px;
+}
+.brunch a:hover{
+    text-decoration: none;
+}
+.brunch:hover {
+    margin-top: -18rem;
+    margin-left: 23rem;
+
+}
+
+#gallery{
+    height: 80rem;
+    background-color: black;
+    color: white;
+    margin-top: -1.5rem;
+}
+#gallery h1{
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 35px;
+}
+#gallery img{
+    width:20.75rem;
+    height: 16rem;
+    transition: transform 0.50s;
+}
+#gallery img:hover{
+    transform: scale(1.05);
+}
+
+
+#about{
+    background-color:black;
+    color: white;
+    height: 44rem;
+    margin-top: -1.5rem;
+}
+#about h1{
+    text-align: center;
+    font-size: 35px;
+}
+#about h2{
+    margin-top: 4rem;
+    margin-left: 3rem;
+    font-size: 30px;
+}
+#about p{
+    font-size: 20px;
+    padding: 0px 3rem;
+    text-align: justify;
+    font-family: 'Barriecito', cursive;
+}
+#about img{
+    width:27.75rem;
+    height: 24rem;
+}
+
+.eat{
+    background-color: black;
+    height: 28rem;
+}
+.eat img{
+    width: 100%;
+    height: 28rem;
+}
+
+
+
+#contact{
+    width: 100%;
+    height: 42rem;
+    background-color: black;
+    position: relative;
+    display: flex;
+    color: white;
+}
+.address{
+    width: 50%;
+    height: 37rem;
+    margin-left: 5rem;
+    margin-top: 4rem;
+}
+.address h1{
+    font-size: 35px;
+}
+.address h2{
+    margin-top: 3rem;
+    font-size: 30px;
+}
+.address p{
+    font-size: 21px;
+}
+
+.form{
+    width: 50%;
+    height: 37rem;
+    margin-left: 8rem;
+    margin-top: 10rem;
+}
+.form label{
+    font-size: 21px;
+}
+.form input{
+    width: 16rem;
+    height: 28px;
+    margin-bottom: 3rem;
+}
+.form button{
+    width: 7rem;
+    height: 28px;
+    margin-top: 3rem;
+    margin-left: 8rem;
+    font-size: 18px;
+}
+
+.follow_us{
+    width: 100%;
+    height: 15rem;
+    background-color:darkred;
+    position: relative;
+    display: flex;
+    color: white;
+}
+.timing{
+    width: 50%;
+    height: 15rem;
+    margin-left: 9rem;
+    margin-top: 2rem;
+}
+
+.location{
+    background-color: black;
+}
+
+.follow{
+    width: 50%;
+    height: 15rem;
+    margin-top: 2rem;
+}
+
+.icon-set{
+    display: flex;
+    
+}
+.icons{
+    width: 4rem;
+    height: 4rem;
+    border-radius:2rem;
+    text-align: center;
+    margin-left: 2rem;
+}
+.icons i{
+    margin-top: 10px;
+}
+.icons:hover{
+    background-image: linear-gradient(to bottom right, yellow, orange);
+}
+.icons:hover i{
+    background-color:darkred;
+    animation: shake 0.80s;
+}
+@keyframes shake{
+    25%{
+        transform: skew(20deg);
+    }
+    50%{
+        transform: skew(-20deg);
+    }
+    75%{
+        transform: skew(20deg);
+    }
+    100%{
+        transform: skew(-20deg);
+    }
+}
+
+
+footer{
+    background-color: black;
+    margin-top: -20px;
+    color: white;
+    text-align: center;
+    height: 3rem;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
